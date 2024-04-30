@@ -1,0 +1,56 @@
+.news-container{
+    padding-right: 4rem ;
+}
+.button{
+    margin-left:6rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border-radius: 0.9rem;
+    border-color: aqua;
+    background: linear-gradient(123deg, yellow -123%, pink 100%);
+
+}
+
+.news-card{
+    border: 2px solid blueviolet;
+    border-radius: 1rem;
+    max-width: 600px;
+    width: 100%;
+    height: 35vh;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+.news-card h1{
+    font-size: 2rem;
+    padding-left:4rem;
+}
+
+.cards p{
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+    font-size:0.4rem;
+   
+}
+.cards span{
+    margin-left: 3rem;
+    border: 1px solid goldenrod;
+    padding: 14px 10px;
+    border-radius: 1rem;
+}
+
+.news-card:hover{
+    border-color: palevioletred;
+}
+
+.container-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:23px;
+}
+
+.cards img{
+    width: 100px;
+   padding: 30px;
+}
